@@ -4,7 +4,7 @@
 
 Inspired by the [Indic NLP Catalog](https://github.com/AI4Bharat/indicnlp_catalog), this repository aims to provide a community-maintained catalog of NLP resources for Northeast India's indigenous languages.
 
-Raise a PR or issue to add resources.
+Raise a PR or issue to add resources. See [CONTRIBUTING.md](CONTRIBUTING.md) for entry format and rules.
 
 ## Contents
 
