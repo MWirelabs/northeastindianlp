@@ -25,20 +25,20 @@ Raise a PR or issue to add resources. See [CONTRIBUTING.md](CONTRIBUTING.md) for
 
 ## Tools and Libraries
 
-- [NE-Agent](https://github.com/MWirelabs/ne-agent) (MWire Labs): Terminal-based multilingual AI agent for NE languages, with retrieval, translation, and transcription. `pip install ne-agent`.
+- [NE-Agent](https://github.com/MWirelabs/ne-agent): Terminal-based multilingual AI agent for NE languages, with retrieval, translation, and transcription. `pip install ne-agent`.
 - [NagaNLP](https://arxiv.org/abs/2512.12537): Open-source toolkit for bootstrapping NLP for Nagamese Creole, with human-in-the-loop synthetic data generation.
 
 ## Models
 
 ### Pre-trained Language Models
 
-- [KhasiBERT](https://huggingface.co/MWirelabs/khasibert) (MWire Labs): Foundational masked language model for Khasi.
-- [GaroBERT](https://huggingface.co/MWirelabs) (MWire Labs): Pre-trained language model for Garo.
-- [MizoBERT](https://huggingface.co/MWirelabs) (MWire Labs): Pre-trained language model for Mizo.
-- [KokborokBERT](https://arxiv.org/abs/2604.19778) (MWire Labs): Pre-trained language model for Kokborok.
-- [NyishiBERT](https://huggingface.co/MWirelabs) (MWire Labs): Pre-trained language model for Nyishi.
-- [NE-BERT](https://huggingface.co/MWirelabs) (MWire Labs): Multilingual BERT for Northeast Indian languages. Accepted at LoResLM/EACL.
-- [MeiteiRoBERTa](https://huggingface.co/MWirelabs) (MWire Labs): RoBERTa-based model for Meitei. Accepted at SIGTYP/EACL.
+- [KhasiBERT](https://huggingface.co/MWirelabs/khasibert): Foundational masked language model for Khasi.
+- [GaroBERT](https://huggingface.co/MWirelabs/garobert): Pre-trained language model for Garo.
+- [MizoRoBERTa](https://huggingface.co/MWirelabs/mizo-roberta): Pre-trained language model for Mizo.
+- [KokborokBERT](https://huggingface.co/MWirelabs/kokborokbert) Pre-trained language model for Kokborok.
+- [NyishiBERT](https://huggingface.co/MWirelabs/nyishibert): Pre-trained language model for Nyishi.
+- [NE-BERT](https://huggingface.co/MWirelabs): Multilingual BERT for Northeast Indian languages. LoResLM/EACL.
+- [MeiteiRoBERTa](https://huggingface.co/MWirelabs/meitei-roberta): RoBERTa-based model for Meitei.SIGTYP/EACL.
 - [EM-ALBERT](http://catalog.elra.info/en-us/repository/browse/ELRA-W0316/): First ALBERT model for Manipuri, trained on 1,034,715 Manipuri sentences.
 - [AxomiyaBERTa](https://huggingface.co/Abhijnan/AxomiyaBERTa): ALBERT-based phonologically-aware model for Assamese, SOTA on AsNER and Cloze-QA.
 - [MizBERT](https://huggingface.co/): BERT-based masked language model for Mizo, 98.92% text classification accuracy.
@@ -46,27 +46,28 @@ Raise a PR or issue to add resources. See [CONTRIBUTING.md](CONTRIBUTING.md) for
 
 ### Embedding Models
 
-- [NE-Embed](https://huggingface.co/MWirelabs/ne-embed) (MWire Labs): Multilingual sentence embeddings for 10 Northeast Indian languages, fine-tuned from LaBSE.
-- [NE-SpeechEmbed](https://huggingface.co/MWirelabs/ne-speechembed) (MWire Labs): Dual-encoder speech-text retrieval model for 8 NE languages.
+- [NE-Embed](https://huggingface.co/MWirelabs/ne-embed): Multilingual sentence embeddings for 10 Northeast Indian languages, fine-tuned from LaBSE.
+- [NE-SpeechEmbed](https://huggingface.co/MWirelabs/ne-speechembed): Dual-encoder speech-text retrieval model for 8 NE languages.
 - [EM-FT](http://catalog.elra.info/en-us/repository/browse/ELRA-W0316/): First FastText word embedding for Manipuri, trained on 1,880,035 sentences.
 
 ### Translation Models
 
-- [KokborokMT](https://arxiv.org/abs/2604.19778) (MWire Labs): Machine translation model for Kokborok.
+- [KokborokMT](https://arxiv.org/abs/2604.19778): Machine translation model for Kokborok.
 
 ### Speech Models
 
-- [NE-ASR](https://huggingface.co/MWirelabs/ne-asr) (MWire Labs): Fine-tuned Whisper-medium ASR for 8 NE languages.
+- [NE-ASR](https://huggingface.co/MWirelabs/ne-asr): Fine-tuned Whisper-medium ASR for 8 NE languages.
 
 ### Language Identification
 
-- [NE-LID](https://huggingface.co/MWirelabs/ne-lid) (MWire Labs): fastText-based language identification for 11 NE languages, 99.09% accuracy. Published at WiLDRe8/LREC-COLING.
+- [NE-LID](https://huggingface.co/MWirelabs/ne-lid): fastText-based language identification for 11 NE languages, 99.09% accuracy. Published at WiLDRe8/LREC-COLING.
 
 ## Corpora
 
 ### Speech Corpora
 
-- [northeast-india-voices](https://huggingface.co/datasets/MWirelabs/northeast-india-voices) (MWire Labs): Proprietary speech corpus, 34,500 utterances across Khasi, Nagamese, Mizo, Kokborok, Garo.
+- [northeast-india-voices](https://huggingface.co/datasets/MWirelabs/northeast-india-voices): Proprietary speech corpus, 34,500 utterances across Khasi, Nagamese, Mizo, Kokborok, Garo.
+- [IndicTTS_Manipuri](https://huggingface.co/datasets/SPRINGLab/IndicTTS_Manipuri): Manipuri text-to-speech dataset, 16.4k audio-text pairs.
 
 ### POS Tagged Corpora
 
@@ -79,16 +80,17 @@ Raise a PR or issue to add resources. See [CONTRIBUTING.md](CONTRIBUTING.md) for
 
 ## Datasets
 
-- [Northeast India Districts and Villages](https://huggingface.co/datasets/MWirelabs/Northeast-India-Districts-and-Villages) (MWire Labs): ~49,275 rows of district/village data, cleaned from LGDirectory (Government of India).
+- [Northeast India Districts and Villages](https://huggingface.co/datasets/MWirelabs/Northeast-India-Districts-and-Villages): ~49,275 rows of district/village data, cleaned from LGDirectory (Government of India).
 - [Ema-lon Manipuri Corpus](http://catalog.elra.info/en-us/repository/browse/ELRA-W0316/): Manipuri-English comparable corpus, up to 1.88M Manipuri sentences, 1.45M English sentences.
+- [manipuri-monolingual-corpus](https://huggingface.co/datasets/joyson117/manipuri-monolingual-corpus): Manipuri monolingual corpus, 3 sets totaling ~106M words, compiled from public internet text.
 
 ## Evaluation Benchmarks
 
-- NortheastBench-Speech (MWire Labs): 8,099-utterance evaluation benchmark for NE speech tasks.
+- NortheastBench-Speech: 8,099-utterance evaluation benchmark for NE speech tasks.
 
 ## Applications
 
-- [NE-Agent](https://github.com/MWirelabs/ne-agent) (MWire Labs): Multilingual terminal agent with retrieval, translation, and transcription for NE languages.
+- [NE-Agent](https://github.com/MWirelabs/ne-agent): Multilingual terminal agent with retrieval, translation, and transcription for NE languages.
 
 ---
 
