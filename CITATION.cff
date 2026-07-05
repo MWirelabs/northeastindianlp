@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this catalog, please cite it as below."
+title: "Northeast India NLP Catalog"
+authors:
+  - name: "MWire Labs"
+url: "https://github.com/MWirelabs/northeastindianlp"
+license: CC-BY-4.0
+date-released: 2026-07-04
