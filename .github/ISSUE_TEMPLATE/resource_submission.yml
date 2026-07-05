@@ -1,0 +1,33 @@
+name: New Resource Submission
+description: Suggest a model, dataset, or tool to add to the catalog
+title: "[Resource] "
+labels: ["contribution"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (HF/GitHub/official page)
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description (1 line)
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Key metric (if available)
+  - type: input
+    id: author
+    attributes:
+      label: Your name / organization
+    validations:
+      required: true
